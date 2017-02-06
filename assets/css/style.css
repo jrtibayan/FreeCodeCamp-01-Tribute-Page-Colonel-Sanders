@@ -1,0 +1,124 @@
+body{
+    background: #89d0e2;
+    color: #247486;
+    text-align: center;
+    min-height: 16000px;
+    line-height: 17px;
+}
+
+a {
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+h1 {
+    line-height: 24px;
+    color: white;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+h1 em{
+font-weight: 700;
+font-size: 1.4em;
+}
+
+.timeline-item {
+    max-width: 450px;
+    margin: 0 auto;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 450px;
+    margin-top: -220px;
+    margin-left: -225px;
+
+    opacity: 0;
+    transition: 2000ms;
+}
+
+#title {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    width: 450px;
+    margin-left: -225px;
+}
+
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #247486;
+    color: white;
+    padding: 10px;
+    border-radius: 10%
+}
+
+#img15 img{
+    border-radius: 50%;
+    border: 3px solid #247486;
+    width: 50%;
+}
+
+.show {
+    opacity: 1;
+}
+
+#wpimg01, #wpimg02, #wpimg03, #wpimg04, #wpimg05, #wpimg06,
+#wpimg07, #wpimg08, #wpimg09, #wpimg10, #wpimg11, #wpimg12,
+#wpimg13, #wpimg14, #wpimg15 {
+    position: absolute;
+}
+
+#wpimg01 {
+    top: 0px;
+}
+#wpimg02 {
+    top: 1000px;
+}
+#wpimg03 {
+    top: 2000px;
+}
+#wpimg04 {
+    top: 3000px;
+}
+#wpimg05 {
+    top: 4000px;
+}
+#wpimg06 {
+    top: 5000px;
+}
+#wpimg07 {
+    top: 6000px;
+}
+#wpimg08 {
+    top: 7000px;
+}
+#wpimg09 {
+    top: 8000px;
+}
+#wpimg10 {
+    top: 9000px;
+}
+#wpimg11 {
+    top: 10000px;
+}
+#wpimg12 {
+    top: 11000px;
+}
+#wpimg13 {
+    top: 12000px;
+}
+#wpimg14 {
+    top: 13000px;
+}
+#wpimg15 {
+    top: 14000px;
+}
